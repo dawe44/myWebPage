@@ -1,0 +1,254 @@
+/*
+main {
+  background-color: blue;
+  padding: 10px;
+} */
+
+/* color: #2F575D; // For Titles, Headers, Nav
+  color: #2F575D; // For text
+*/
+
+input:focus, textarea:focus, select:focus, datalist:focus{
+  background-color: #6D9197;
+}
+
+
+textarea{
+  color: orange;
+  border: 3px solid #C4CDC1;
+  background-image: url("pics/write.png");
+  width: 100%;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  resize: none;
+}
+
+
+div{
+  margin: 10px;
+}
+
+p.imagetext{
+  padding: 10px;
+  margin: 10px;
+}
+
+img.image{
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+header {
+  background-color: #C4CDC1;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2F575D;
+  text-align: center;
+}
+
+table {
+  table-layout: inherit;
+  border-collapse: collapse;
+  border: 1px solid #28363D;
+  padding: 10px;
+}
+
+th,td {
+  border: 1px solid #28363D;
+}
+
+ol, ul, dl {
+  background: #6D9197;
+}
+
+ul{
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+ol {
+  list-style-position: inside;
+  list-style-type: upper-roman;
+}
+
+dl {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+ul.navbar {
+  color: #2F575D;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li.navbar {
+  float: left;
+  display: block;
+  font-size: 25px;
+  background-color: lightgray;
+  width: 50%;
+
+}
+
+li.navbar a {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+li.navbar a:hover {
+  background-color: #28363D;
+}
+
+li.navbar a:active {
+  background-color: #2F575D;
+}
+
+li.navbar a:visited, a:link{
+  color:  white;
+}
+
+
+
+a.active  {
+  background-color: #658B6F;
+}
+
+p {
+  color: #2F575D;
+}
+
+article {
+  color: #2F575D;
+  left: auto;
+  padding: 10px;
+  column-count: 3;
+  column-rule: 3px solid #6D9197;
+
+}
+
+/* nav {
+  background-color: lightgray;
+  border-left-style: solid;
+  border-color: black;
+  border-width: thick;
+  padding: 10px;
+  color: white;
+} */
+
+
+section{
+  /* left: 10px; */
+  outline-color: #2F575D;
+  outline-style: solid;
+  position: static;
+  float: left;
+  width:70%
+}
+
+
+aside {
+  float: right;
+  width: 30%;
+  overflow: visible;
+  text-align: center;
+}
+
+footer {
+  vertical-align: bottom;
+  clear:both;
+  padding: 40px;
+  background-color: #28363D;
+  color: white;
+  text-align: right;
+}
+
+
+body {
+  width: 100%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", serif;
+  letter-spacing: 1px;
+  background-color: #DEE1DD;
+  position: static;
+  min-width: 10px;
+  min-height: 10px;
+  max-width: 800px;
+  max-height: 1600px;
+  padding: 10px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* Add some content at the bottom of the video/page */
+.videocontent {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+h1.h1video {
+  text-align: left;
+}
+
+p.pvideo{
+  text-align: left;
+}
+
+body.bodyvideo {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  aside{
+    float: none;
+    clear: both;
+    margin: 10px;
+    padding: 10px;
+  }
+  article {
+    column-count: 2;
+  }
+  section{
+    width: 100%;
+  }
+  audio{
+    width: 220px;
+   }
+}

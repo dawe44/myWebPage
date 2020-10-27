@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="application-name" content="DavidsPortfolio">
+  <meta name="author" content="David Zadeh">
+  <meta name="description" content="En hemsida om mig">
+  <meta name="generator" content="Notepad++">
+  <meta name="keywords" content="Hemsida, Intressen, Historia, Nutid, Framtid">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Home</title>
+</head>
+<body>
+  <header>
+    <h1>David Z</h1>
+    <p>Detta är en hemsida om <mark>mig</mark>.</p>
+    <nav>
+      <ul class="navbar">
+        <li class="navbar"><a class="active" href="home.html">Home</a></li>
+        <li class="navbar"><a href="history.html">History</a></li>
+        <li class="navbar"><a href="now.html">Now</a></li>
+        <li class="navbar"><a href="future.html">Future</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <header>
+        <h2>Detta är content på min hemsida om min tid.</h2>
+        <blockquote cite="https://en.wikipedia.org/wiki/Time">
+          <p>"Time is the indefinite continued progress of existence and events that occur in an apparently irreversible succession from the past, through the present, into the future."</p>
+          <p>- Random Author4, <cite>Wikipedia</cite></p>
+        </blockquote>
+      </header>
+
+      <a href="history.html"><h3>History</h3></a>
+      <article>
+        <p>Här berättar jag om mina tidiagre aktiviteter om mina unga år som fotbollspelare samt annat.</p>
+      </article>
+
+      <a href="now.html"><h3>Nu</h3></a>
+      <article>
+        <p>Här berättar jag om mina intressen idag och träningen idag.</p>
+      </article>
+
+      <a href="future.html"><h3>Framtiden</h3></a>
+      <article>
+        <p>Är du nyfiken på mina framtidsplaner? Här berättar jag om hur jag vill få ett jobb som systemutvecklare eller webbutvecklare.</p>
+      </article>
+
+      <form method="post" enctype="multipart/form-data" action="https://people.dsv.su.se/~pierre/i/05_ass/ip3/1/1.10/example.php">
+        <fieldset>
+          <legend>Skicka formulär</legend>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" placeholder="Olaf" autofocus required><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" placeholder="Björnsson" required><br><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Man</label><br>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Kvinna</label><br>
+          <input type="radio" id="other" name="gender" value="other" required>
+          <label for="other">Annat</label><br><br>
+          <label for="homepage">Skicka en hemsida:</label>
+          <input type="url" list="pages" name="homepage" id="homepage" required>
+          <datalist id="pages">
+            <option value="https://www.google.se/">
+              <option value="https://www.facebook.com/">
+                <option value="https://www.runescape.com/splash">
+                  <option value="https://www.w3schools.com/">
+                  </datalist><br><br>
+
+                  <label for="email">Skriv ditt mejl:</label>
+                  <input type="email" id="email" name="email" placeholder="myemail@example.com" required><br><br>
+                  <input type="file" name="file" required><br><br>
+                  <label for="message">Ditt meddelande:</label><br>
+                  <textarea id="message" name="message" rows="4" cols="50" placeholder="     Skriv ditt meddelande här..." required></textarea><br>
+                  <input type="checkbox" id="licence" name="licence" value="hasLicence">
+                  <label for="licence"> Jag har körkort.</label><br>
+                  <input type="checkbox" id="car" name="car" value="hasCar">
+                  <label for="car"> Jag har en bil</label><br><br>
+
+                  <label for="player">Välj en spelare:</label>
+                  <select id="player" required>
+                    <option value="">Ingen</option>
+                    <optgroup label="FCB">
+                      <option value="messi">Lionel Messi</option>
+                      <option value="fati">Ansu Fati</option>
+                      <option value="coutinho">Philipe Coutinho</option>
+                    </optgroup>
+                    <optgroup label="JUV">
+                      <option value="ronaldo">Cristiano Ronaldo</option>
+                      <option value="dybala">Paulo Dybala</option>
+                    </optgroup>
+                    <optgroup label= "PSG">
+                      <option value="neymar">Neymar</option>
+                      <option value="mbappe">Kylian Mbappe</option>
+                    </optgroup>
+                  </select><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+
+              </form>
+
+              <h3>Random fakta om mig</h3>
+              <article >
+                <ul>
+                  <li>Jag är snabb.</li>
+                  <li>Min födelsedag är på en löning.</li>
+                  <li>Jag kan fyra språk.</li>
+                </ul>
+              </article>
+              <pre>
+                Då var det
+                slut på denna
+                sida.
+              </pre>
+              <p>Hemsidan utvecklat <time datetime="2020-10-24">2020-10-24.</time>.</p>
+            </section>
+            <aside>
+              <figure>
+                <img src="pics/jag.gif" alt="Jag förr-nu" width="200" height="200">
+                <figcaption>Jag, Morph på förr-nu.</figcaption>
+              </figure>
+            </aside>
+          </main>
+          <footer>
+            <details>
+              <summary>Author: David Z, klicka för kontaktinformation. &copy; DZ Pages</summary>
+              <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+              <p>Tel: 010123123</p>
+              <address>
+                <p> Adress: påhittadväg 4d</p>
+                <p> Sverige, stad</p>
+              </address>
+            </details>
+          </footer>
+        </body>
+        </html>
